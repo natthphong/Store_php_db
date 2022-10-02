@@ -1,0 +1,167 @@
+html,
+body {
+    margin: 0;
+    background-color: #e5e2e2;
+    width: 100%;
+}
+
+
+/* Style the top navigation bar */
+
+.navbar {
+    overflow: hidden;
+    background-color: #282A35;
+    position: relative;
+    z-index: 2;
+    font-size: 17px;
+    width: 100%;
+    padding: 0;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Style the navigation bar links */
+
+input[type=text],
+select {
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+/* Right-aligned link */
+
+.navbar a.right {
+    float: right;
+}
+
+
+/* Change color on hover */
+
+.navbar a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.row {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #282A35;
+    border-bottom-style: solid;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+}
+
+.info {
+    margin-bottom: 100px;
+    border-color: #282A35;
+}
+
+th {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-width: 1px;
+    border-style: groove;
+}
+
+.info td {
+    padding: 7px;
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-style: groove;
+}
+
+form {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    overflow: hidden;
+    background-color: #282A35;
+    font-size: 17px;
+    width: 100%;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 30px;
+}
+
+.row1 {
+    justify-content: center;
+    grid-auto-flow: column;
+    display: grid;
+    gap: 15px;
+    padding: 30px;
+    background-color: white;
+    vertical-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+
+.column {
+    padding: 15px;
+    text-align: center;
+    margin-inline: 10px;
+    background-color: #f1f1f1;
+    width: 150px;
+    height: 150px;
+    display: block;
+    grid-auto-flow: row;
+    align-content: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+
+.column p {
+    font: 1em sans-serif;
+}
+
+.column:hover {
+    cursor: pointer;
+    background-color: rgb(187, 187, 187);
+}
+
+#rowadd_delete ,#rowsearch ,#rowupdate {
+    margin-bottom: 120px;
+}
